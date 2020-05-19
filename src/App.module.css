@@ -9,9 +9,15 @@ body {
 }
 .header{
   width:100%;
-	height:80px;
+  height:80px;
+   align-items: center;
 }
-.nav{
+.countryButton{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.countrysearchBar{
   float:right;
   display:inline-block;
   line-height:52px;
